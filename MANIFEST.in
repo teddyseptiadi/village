@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include village *.css
+recursive-include village *.csv
+recursive-include village *.html
+recursive-include village *.ico
+recursive-include village *.js
+recursive-include village *.json
+recursive-include village *.md
+recursive-include village *.png
+recursive-include village *.py
+recursive-include village *.svg
+recursive-include village *.txt
+recursive-exclude village *.pyc
